@@ -11,8 +11,6 @@ reverseList(List, ReversedList) :- [Head | Tail] = List,
 
 %insertElementIntoListEnd(El, List, NewList)
 
-insertElementIntoListEnd(El, List, NewList) :- mergeLists(List, [El], NewList).
-
 %Definitions for mergeLists(List1, List2, Merged)
 mergeLists([], List, List).
 
